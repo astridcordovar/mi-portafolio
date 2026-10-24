@@ -50,4 +50,4 @@ cd mi-portafolio
  
 ![Captura redactando la GUIA, de acuerdo a las indicaciones del laboratorio.](../img/captura2.png)
 
-- [Enlace a la Guia del proyecto](docs/GUIA.md)
+- [Enlace a la Guia del proyecto](../docs/GUIA.md)
