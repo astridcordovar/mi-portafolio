@@ -48,6 +48,6 @@ cd mi-portafolio
  
 ### Captura de mi trabajo
  
-![Captura redactando la GUIA, de acuerdo a las indicaciones del laboratorio.](img/captura2.png)
+![Captura redactando la GUIA, de acuerdo a las indicaciones del laboratorio.](../img/captura2.png)
 
 - [Enlace a la Guia del proyecto](docs/GUIA.md)
