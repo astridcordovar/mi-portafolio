@@ -1,7 +1,7 @@
 # Mi portafolio
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.1.0-red)
-![Estado](https://img.shields.io/badge/estado-en%terminadored)
+![Estado](https://img.shields.io/badge/estado-terminado)
 
 
 Trabajos del curso Diseno de Interfaces de Programacion Avanzado, realizado en la semana 03 de clases. En este trabajo se sube un README mejor redactado, con más detalle y mejores elemento visuales que ayuden al entendimiento de como funciona y que hace nuestro proyecto. Está dirigido a todo el público que desea revisar mis primero trabajos de laboratorio.
