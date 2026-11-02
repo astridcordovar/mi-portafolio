@@ -1,58 +1,72 @@
 # Mi portafolio
- 
-Trabajos del curso Diseno de Interfaces de Programacion Avanzado.
- 
-## Sobre mi
- 
-Estudiante de Diseno y Desarrollo de Software en Tecsup.
- 
-## Contenido
- 
-### Trabajos del modulo 1
+![Licencia](https://img.shields.io/badge/licencia-MIT-green)
+![Version](https://img.shields.io/badge/version-1.1.0-red)
+![Estado](https://img.shields.io/badge/estado-en%terminadored)
 
-## Herramientas que uso
+
+Trabajos del curso Diseno de Interfaces de Programacion Avanzado, realizado en la semana 03 de clases. En este trabajo se sube un README mejor redactado, con más detalle y mejores elemento visuales que ayuden al entendimiento de como funciona y que hace nuestro proyecto. Está dirigido a todo el público que desea revisar mis primero trabajos de laboratorio.
+
+## Tabla de contenidos
+
+-	[¿Que es?](#que-es)
+-	[¿Como se usa?](#como-se-usa)
+-	[¿Cómo está construido?](#cómo-está-construido)
+-	[¿Cómo se colabora?](#cómo-se-colabora)
+
+## ¿Que es?
  
-- **Git** para el control de versiones
-- **GitHub** para el repositorio remoto
-- *Visual Studio Code* como editor
+ Es un repositorio donde se puede ver mi portafolio, trabajos desarrollados en clase.
  
-## Pasos para clonar este proyecto
+## ¿Como se usa?
  
+Es un repositorio informativo, no realiza alguna acción. 
+
+## ¿Cómo está construido?
+
+Ésta construido por un archivo README donde explica el poyecto.
+
+## ¿Cómo se colabora?
+
+Pueden colaborar clonando el repositorio, ya que es un repositorio publico.
 1. Copiar la direccion desde el boton Code
 2. Ejecutar git clone con esa direccion
 3. Entrar a la carpeta con cd
- 
-## Mi avance del modulo
- 
-- [x] Laboratorio 01: Git basico
-- [x] Laboratorio 03: Trabajo colaborativo
-- [ ] Laboratorio 04: Markdown
 
-## Enlaces utiles
- 
-- [Guia oficial de Markdown](https://www.markdownguide.org/)
-- [Mi perfil de GitHub](https://github.com/astridcordovar/mi-portafolio)
- 
-## Captura de mi trabajo
- 
-![Captura de nuestra clase en síncrona en el portal de Webex](img/captura.png)
+## Instalación
+HTML
 
-## Comandos que mas uso
- 
-Para ver el estado del proyecto uso `git status`.
- 
-```bash
-git add .
-git commit -m "Actualiza el README"
-git push origin main
+```html
+<h1>Mis notas</h1>
+<ul id="lista"></ul>
 ```
- 
+
+Funcion que agrega la nota:
+
+```js
+ function agregar() {
+    const texto = document.getElementById("nota").value; const item = document.createElement("li"); item.textContent = texto; document.getElementById("lista").appendChild(item);
+}
+```
+
+## Estado de las funciones
 | Comando | Que hace |
-|---------|----------|
+|:--------|:------:|
 | git add | Prepara los cambios |
 | git commit | Guarda la version |
 | git push | Sube los cambios al remoto |
- 
-> Documentar es parte del trabajo, no un extra al final.
 
-- [Guia del proyecto](docs/GUIA.md)
+## Hoja de ruta
+- [x] Laboratorio 01: Git basico
+- [x] Laboratorio 03: Trabajo colaborativo
+- [x] Laboratorio 04: Marckdown
+- [ ] Laboratorio 05: Markdown Avanzado
+
+
+## Arquitectura
+
+```mermaid 
+graph LR
+A[Usuario] --> B[Escribir nota]
+B	--> C[Guardar nota]
+C	--> D[Ver lista]
+```
