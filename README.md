@@ -70,3 +70,6 @@ A[Usuario] --> B[Escribir nota]
 B	--> C[Guardar nota]
 C	--> D[Ver lista]
 ```
+
+## Contribución 
+Lee la [guia de contribucion](CONTRIBUTING.md) antes de enviar cambios.
